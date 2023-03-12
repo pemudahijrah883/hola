@@ -154,7 +154,7 @@ document.getElementById("bq").onclick = function() {
 
     pesanwhatsapp = jawaban;
 
-    await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp aku, ya!', 'success');
+    await swals.fire('OK!', 'Assalamualaikum penghuni surga:)', 'success');
 
     window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;
 
